@@ -1,7 +1,7 @@
 module Findable
   module ClassMethods
     def find_by_name(name)
-     detect{|a| a.name == name}
+     @@song.detect{|a| a.name == name}
     end
   end
 end
